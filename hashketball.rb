@@ -7,6 +7,7 @@ def game_hash
     :team_name => "Brooklyn Nets",
     :colors => ["Black", "White"],
     :players => [
+<<<<<<< HEAD
       #Alan Anderson
         {:player_name => 'Alan Anderson', 
          :number => 0,
@@ -60,10 +61,38 @@ def game_hash
      ]
   }, 
   
+=======
+      {:alan_anderson => 
+        {:player_name => 'Alan Anderson', 
+         :number => '0',
+         :shoe => '16',
+         :points => '22',
+         :rebounds => '12',
+         :assists => '12',
+         :steals => '3',
+         :blocks => '1',
+         :slam_dunks => '1'},
+      :reggie_evans =>
+        {:player_name => 'Reggie Evans',
+         :number => '30',
+         :shoe => '14',
+         :points => '12',
+         :rebounds => '12',
+         :assists => '12',
+         :steals => '12',
+         :blocks => '12',
+         :slam_dunks => '7'},
+      }binding.pry
+     ]
+  }, 
+  
+  
+>>>>>>> a2e57066da4216a2f5e632c657db42b4f7303bc8
   :away => {
     :team_name => "Charlotte Hornets",
     :colors => ["Turquoise", "Purple"],
     :players => [
+<<<<<<< HEAD
         {:player_name => 'Jeff Adrien',
          :number => 4,
          :shoe => 18,
@@ -109,6 +138,12 @@ def game_hash
          :steals => 7,
          :blocks => 5,
          :slam_dunks => 12 }
+=======
+      {
+      
+    }
+      
+>>>>>>> a2e57066da4216a2f5e632c657db42b4f7303bc8
       ]
   }
   
